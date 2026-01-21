@@ -45,3 +45,16 @@ a{
     text-decoration: none;
     color:#A3BCF9 ;
 }
+
+a::before{
+    content: '» ';
+}
+
+a::after{
+    content: ' «';
+}
+
+a:hover{
+    color: #325cc7;
+    text-decoration: underline;
+}
