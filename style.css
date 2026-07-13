@@ -159,17 +159,20 @@ p {
 
 .foto-perfil {
     border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 8px;
+    border-radius: 50%;
     padding: 14px;
     background: rgba(255, 255, 255, 0.08);
+    aspect-ratio: 1;
+    overflow: hidden;
 }
 
 .foto-perfil img {
     width: 100%;
-    aspect-ratio: 4 / 5;
+    height: 100%;
     display: block;
-    object-fit: cover;
-    border-radius: 6px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 50%;
 }
 
 main {
@@ -365,4 +368,5 @@ main {
     .links-contato li {
         align-items: flex-start;
     }
+
 }
