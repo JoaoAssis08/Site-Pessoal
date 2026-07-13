@@ -4,47 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/Ja.png" type="image/png">
-    <title>João Alberto | Futuro Desenvolvedor | Portfólio</title>
+    <title>João Alberto | Portfólio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="hero">
+        <nav class="menu" aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#estudos">Estudos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <section class="hero-conteudo">
+            <div class="hero-texto">
+                <p class="etiqueta">Desenvolvedor em formação</p>
+                <h1>João Alberto</h1>
+                <p class="resumo">
+                    Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por
+                    tecnologia e em formação para atuar como desenvolvedor full-stack.
+                </p>
+                <div class="acoes">
+                    <a class="botao principal" href="#contato">Fale comigo</a>
+                    <a class="botao secundario" target="_blank" href="https://github.com/JoaoAssis08" rel="noopener">Ver GitHub</a>
+                </div>
+            </div>
+
+            <div class="foto-perfil">
+                <img src="imagens/MinhaFoto.png" alt="Foto de João Alberto">
+            </div>
+        </section>
+    </header>
+
     <main>
-        <h1>Olá, Seja Bem Vindo!</h1>
-        <img id="minhaImagem" src="imagens/MinhaFoto.png" alt="Foto João Alberto">
-        <h2>Quem sou eu?</h2>
-        <p>
-            Olá! Me chamo <strong>João Alberto</strong>, tenho 17 anos e sou um estudante
-            apaixonado por tecnologia e desenvolvimento web.
-            Atualmente, estou estudando <strong>HTML e CSS</strong>, focando na
-            construção de interfaces modernas e bem estruturadas.
-        </p>
-        <p>
-            Tenho como objetivo ingressar na área de tecnologia como
-            <strong>desenvolvedor full-stack</strong>, expandindo meus conhecimentos
-            tanto no front-end quanto no back-end.
-            Estou sempre em busca de aprendizado contínuo, novos desafios e
-            oportunidades para evoluir minhas habilidades por meio de projetos práticos.
-        </p>
-        <p>
-            Este portfólio representa minha jornada de estudos, dedicação e
-            crescimento na programação.
-        </p>
-        <h3>Como falar comigo?</h3>
-        <ul>
-            <li>
-            </a><img src="imagens/GitHub.png" alt="GitHub">
-                </a> JoaoAssis08 - Acesse meu perfil no
-                <a target="_blank" href="https://GitHub.com/JoaoAssis08">GitHub</a></li>
-            <li><img src="imagens/instagram.png" alt="instagram">
-                </a> 08joaoassis - Me segue la no
-                <a target="_blank" href="https://instagram.com/_08joaoassis">Instagram</a></li>
-            <li><img src="imagens/Gmail.png" alt="Gmail">
-                    Gmail para contato:
-                <a target="_blank" href="https://mail.google.com/mail/?view=cm&to=joaoalbertorinaldideassis@gmail.com">
-                Gmail
-                </a>
-            </li>
-        </ul>
+        <section id="sobre" class="secao">
+            <p class="etiqueta">Quem sou eu</p>
+            <h2>Olá! Seja bem-vindo ao meu portfólio.</h2>
+            <p>
+                Me chamo <strong>João Alberto</strong> e estou cursando o tecnólogo em
+                <strong>Análise e Desenvolvimento de Sistemas</strong>. Sempre gostei bastante
+                de tecnologia e estou construindo minha jornada na área com dedicação,
+                curiosidade e aprendizado contínuo.
+            </p>
+            <p>
+                Atualmente estudo para me tornar um <strong>desenvolvedor full-stack</strong>,
+                evoluindo tanto no front-end quanto no back-end por meio de projetos práticos,
+                novos desafios e muita vontade de crescer profissionalmente.
+            </p>
+        </section>
+
+        <section id="estudos" class="secao destaque">
+            <div>
+                <p class="etiqueta">Minha jornada</p>
+                <h2>Estudo programação para criar soluções melhores a cada projeto.</h2>
+                <p>
+                    Atualmente estou começando a estudar Python e outras tecnologias, enquanto
+                    continuo fortalecendo minha base no desenvolvimento web para evoluir como
+                    desenvolvedor full-stack.
+                </p>
+            </div>
+
+            <div class="grade">
+                <article class="cartao">
+                    <span>01</span>
+                    <h3>Front-end</h3>
+                    <p>Criação de páginas responsivas, organizadas e agradáveis para o usuário.</p>
+                </article>
+
+                <article class="cartao">
+                    <span>02</span>
+                    <h3>Back-end</h3>
+                    <p>Objetivo de aprender lógica, banco de dados e construção de sistemas completos.</p>
+                </article>
+
+                <article class="cartao">
+                    <span>03</span>
+                    <h3>Projetos práticos</h3>
+                    <p>Uso cada projeto como oportunidade para evoluir, testar ideias e resolver problemas.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao">
+            <p class="etiqueta">Objetivo</p>
+            <h2>Construir uma base sólida e crescer profissionalmente em tecnologia.</h2>
+            <p>
+                Este portfólio representa minha dedicação, minha evolução nos estudos e minha vontade
+                de transformar conhecimento em projetos reais. Ainda estou em formação, mas sigo
+                aprendendo todos os dias.
+            </p>
+        </section>
+
+        <section id="contato" class="secao contato">
+            <div>
+                <p class="etiqueta">Contato</p>
+                <h2>Vamos conversar?</h2>
+                <p>Você pode acompanhar meus estudos e entrar em contato pelos links abaixo.</p>
+            </div>
+
+            <ul class="links-contato">
+                <li>
+                    <span class="icone-contato github">
+                        <img src="imagens/GitHub.png" alt="GitHub">
+                    </span>
+                    <a target="_blank" href="https://github.com/JoaoAssis08" rel="noopener">GitHub: JoaoAssis08</a>
+                </li>
+                <li>
+                    <span class="icone-contato instagram">
+                        <img src="imagens/instagram.png" alt="Instagram">
+                    </span>
+                    <a target="_blank" href="https://instagram.com/_08joaoassis" rel="noopener">Instagram: @_08joaoassis</a>
+                </li>
+                <li>
+                    <span class="icone-contato gmail">
+                        <img src="imagens/Gmail.png" alt="Gmail">
+                    </span>
+                    <a target="_blank" href="https://mail.google.com/mail/?view=cm&to=joaoalbertorinaldideassis@gmail.com" rel="noopener">joaoalbertorinaldideassis@gmail.com</a>
+                </li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
